@@ -22,5 +22,6 @@ a.active hr {
   a.active {
     background-color: black;
     color: aliceblue;
+    transition: 2s;
   }
 }
