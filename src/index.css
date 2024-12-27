@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:wght@300;500&family=Poppins:wght@300;400;600&family=Press+Start+2P&family=Roboto:wght@300;400;500;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+  display: block;
+}
+
+* {
+  font-family: "Roboto", serif;
+}
+
+.clicker-script-regular {
+  font-family: "Clicker Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: aliceblue;
+  }
+}
