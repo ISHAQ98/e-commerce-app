@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom";
 import { assets } from "../assets/assets";
 
 function Footer() {
   return (
     <div>
-      <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 py-10 mt-40 text-sm ">
+      <div className="flex flex-col sm:grid grid-cols-[2fr_1fr_1fr] gap-14 py-10 mt-40 text-sm ">
         <div>
           <img
             src={assets.channel_logo}
             alt="logo"
-            className="mb-5 w-32 rounded-full"
+            className="sm:mb-3 sm:w-25 w-24 mb-3  rounded-full "
           />
           <p className="w-full md:2/3 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
@@ -21,6 +22,7 @@ function Footer() {
           <p className="text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>Home</li>
+
             <li>About us</li>
             <li>Delivery</li>
             <li>Privacy policy</li>

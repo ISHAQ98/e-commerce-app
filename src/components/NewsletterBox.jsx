@@ -1,8 +1,4 @@
 function NewsletterBox() {
-  const onSubmitHandler = (e) => {
-    e.preventDefault();
-    console.log();
-  };
   return (
     <div className="text-center">
       <p className="text-2xl font-medium text-gray-800 ">
@@ -12,10 +8,7 @@ function NewsletterBox() {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
         ullam.
       </p>
-      <form
-        onSubmit={onSubmitHandler}
-        className="w-full sm:w-1/2 flex items-center  gap-3 mx-auto my-6 py-4"
-      >
+      <form className="w-full sm:w-1/2 flex flex-col sm:flex-row items-center  gap-3 mx-auto my-6 py-4">
         <input
           className="w-full border text-sm rounded-md bg-slate-100 px-10 py-4 sm:flex-1 outline-none"
           type="email"
@@ -23,7 +16,7 @@ function NewsletterBox() {
         />
         <button
           type="submit"
-          className="bg-slate-900 rounded-md text-white text-sm px-10 py-4"
+          className="bg-slate-900 hover:bg-slate-700 transition-colors duration-300 rounded-md text-white text-sm px-10 py-4"
         >
           SUBSCRIBE
         </button>
