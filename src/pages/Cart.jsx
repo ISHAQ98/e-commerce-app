@@ -12,6 +12,7 @@ function Cart() {
 
   const [cartData, setCartData] = useState([]);
 
+  // navigate to a page through this router method
   const navigate = useNavigate();
 
   useEffect(() => {
