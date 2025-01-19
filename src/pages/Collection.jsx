@@ -81,7 +81,7 @@ function Collection() {
   //   setFilterProducts(pc);
   // }
 
-  console.log(category, subCategory);
+  
 
   useEffect(() => {
     applyFilter();
